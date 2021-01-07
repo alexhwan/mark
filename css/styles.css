@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 1.25rem;
+}
+
+.top-container {
+  background-color: #f1f3f8;
+  position: relative;
+  padding-top: 200px;
+}
+
+.middle-container {}
+
+.bottom-container {
+  margin-top: 50px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background-color: #f1f3f8;
+  margin-bottom: 0;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 15%;
+  top: 3%;
+  width: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  width: 200px;
+  top: 12%;
+  right: 20%;
+}
+
+h1 {
+  margin: 100px auto 0 auto;
+  font-size: 5rem;
+  font-family: 'Sacramento', cursive;
+  color: #8d93ab;
+  line-height: 2;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 2rem;
+  color: #8d93ab
+}
+
+h3, a {
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  font-style: normal;
+  color: #8d93ab;
+}
+
+.skill-row {
+  width: 500px;
+  margin: 50px auto 50px auto;
+
+}
+
+.skill-row h3, .skill-row p {
+  text-align: left;
+}
+
+.minecraft {
+  width: 200px;
+  float: left;
+  margin-right: 20px;
+}
+
+.cow {
+  width: 300px;
+  float: right;
+  margin-left: 20px;
+}
+
+
+
+.my-picture {
+  margin: 60px auto 60px auto;
+  width: 200px;
+}
+
+.roblox-pic {
+  margin: auto;
+  width: 1000px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+hr {
+  margin: 60px auto 60px auto;
+  border: none;
+  border-top: dotted;
+  border-color: #d6e0f0;
+  border-width: 8px;
+  width: 4%;
+}
+
+.about-me, .get-in-touch {
+  width: 400px;
+  margin: 50px auto 50px auto;
+}
+
+.footer-link {
+  margin: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #8d93ab;
+}
+.footer-link:hover {
+  margin: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #393b44;
+}
+
+
+.footer-name {
+  margin-top: 30px;
+  font-family: serif;
+  font-size: 0.8rem;
+  color: #8d93ab;
+}
+
+html {
+  height: 100%;
+}
+
+.btn {
+   background: #D6E0F0;
+   background-image: -webkit-linear-gradient(top, #D6E0F0, #8D93AB);
+   background-image: -moz-linear-gradient(top, #D6E0F0, #8D93AB);
+   background-image: -ms-linear-gradient(top, #D6E0F0, #8D93AB);
+   background-image: -o-linear-gradient(top, #D6E0F0, #8D93AB);
+   background-image: -webkit-gradient(to bottom, #D6E0F0, #8D93AB);
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 5px;
+   color: #FFFFFF;
+   font-family: Verdana;
+   font-size: 1rem;
+   font-weight: 100;
+   padding: 10px 15px 10px 15px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #FFFFFF 0;
+   background: #8D93AB;
+   background-image: -webkit-linear-gradient(top, #8D93AB, #D6E0F0);
+   background-image: -moz-linear-gradient(top, #8D93AB, #D6E0F0);
+   background-image: -ms-linear-gradient(top, #8D93AB, #D6E0F0);
+   background-image: -o-linear-gradient(top, #8D93AB, #D6E0F0);
+   background-image: -webkit-gradient(to bottom, #8D93AB, #D6E0F0);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 5px;
+   text-decoration: none;
+}
+
+/* .skill-description {
+  clear: both;
+} */
